@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2>My Portfolio</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <h1>Hello, I'm <span>Srinithi</span></h1>
+        <h3>Computer Science Engineering Student</h3>
+        <p>
+            Welcome to my personal portfolio website.
+        </p>
+
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science Engineering student.
+            I am interested in programming, web development
+            and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>Java</div>
+            <div>C Programming</div>
+            <div>Python</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Expense Tracker</h3>
+            <p>
+                A simple application used to add and manage
+                daily expenses.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Student Portfolio</h3>
+            <p>
+                A personal website created using HTML and CSS.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: yourmail@gmail.com</p>
+        <p>Phone: 9876543210</p>
+
+        <button>Send Message</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Srinithi | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
